@@ -1,5 +1,4 @@
-
-Online Hospital Locator and Appointment Scheduling System
-Web Application | HTML, CSS, JavaScript, PHP, MySQL
-Designed and implemented an Online Hospital Locator and Appointment Scheduling System, leveraging HTML, CSS, JavaScript, PHP, and MySQL.
-The system streamlines hospital discovery near you, appointment booking, and location access for users.
+Unified Volunteer Portal
+Android App Development | Java, XML
+Developed the Unified Volunteer Portal, a centralized platform and Android app using Java and XML to bridge NSS activities and enable inclusive participation in social service events.
+Designed to enhance communication and engagement among NSS and non-NSS volunteers.
