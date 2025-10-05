@@ -1,0 +1,139 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:id="@+id/main"
+    tools:context=".Event1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/black"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/pageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/volkhov_bold_italic"
+                android:text="VolunteeRise"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- Content Area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-66dp"
+            android:gravity="center"
+            android:background="@drawable/curved_content_background"
+            android:orientation="vertical"
+            android:backgroundTint="@color/white"
+            android:padding="30dp">
+
+            <!-- Event Name -->
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CLEAN UP DRIVE"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"/>
+
+            <!-- Map View -->
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context=".Event1" />
+
+
+            <TextView
+                android:id="@+id/event1_infoheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mangrove Cleanup Drive"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/event1_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nature needs our help! Mangrove protect our coasts,support marine life, and fight climate changes, but they're being choked by plastic and waste.\nLet's come together to restore them!!\n\nDate: 25.04.2025\nLocation: Flamingo Point, Seawoods\ntime: 7am - 10am"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:id="@+id/event1_imgproof"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/user_profile_img"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.226">
+
+            </ImageView>
+
+
+
+
+            <!-- Upload Proof Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/selectproof1_button"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:text="select image proof"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:textSize="18sp"
+                app:cornerRadius="30dp" />
+
+
+            <!-- Upload Proof Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/uploadproof1_button"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:text="Upload"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:textSize="18sp"
+                app:cornerRadius="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+<!--    Android Application (<cert_fingerprint>;<package_name>): E9:84:1E:AA:05:65:06:EF:8D:15:3A:79:9C:09:B1:8A:AB:36:69:EF;com.example.volunteerrise-->
+
+
+

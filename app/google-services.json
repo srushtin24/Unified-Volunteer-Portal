@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1005309724872",
+    "firebase_url": "https://volunteerrise-b04f5-default-rtdb.firebaseio.com",
+    "project_id": "volunteerrise-b04f5",
+    "storage_bucket": "volunteerrise-b04f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005309724872:android:e63ae4c3fe5e011cb9bdfd",
+        "android_client_info": {
+          "package_name": "com.example.volunteerrise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt9nMsgyLFEHszaPhdtqjrV3eoGx1s1fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

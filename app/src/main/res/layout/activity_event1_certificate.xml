@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Curved Title Area -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/black"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/pageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/volkhov_bold_italic"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- White Curved Certificate Content Area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-66dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/curved_content_background"
+            android:padding="30dp">
+
+            <!-- Golden Border Wrap -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/golden_border"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <!-- Medal Image -->
+                <ImageView
+                    android:id="@+id/medalImageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/medal"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="Medal Image"
+                    android:layout_marginTop="16dp"/>
+
+                <!-- Badge Heading -->
+                <TextView
+                    android:id="@+id/badgeHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BADGE OF PARTICIPATION"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <!-- Circular Profile Picture -->
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/user_profile_img"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#FFD700"
+                    android:layout_gravity="center_horizontal" />
+
+                <!-- Awarded Text -->
+                <TextView
+                    android:id="@+id/awardedText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This badge is proudly awarded to"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="24dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <!-- User Name -->
+                <TextView
+                    android:id="@+id/userNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Name"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <!-- Event Details -->
+                <TextView
+                    android:id="@+id/eventDetailsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="for actively participating in the Cleanup Drive held at Flamingo Point, Seawoods on April 25, 2025, rendering 4 hours of service to the community and environmental preservation. \n\nYour dedication inspires change!!"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/> />
+
+                <!-- UID and Verified Stamp -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/uidTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UID: XYZ123"
+                        android:textSize="12sp"
+                        android:textColor="#555555"
+                        android:layout_marginStart="8dp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/verifiedStampImageView"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/verified"
+                        android:contentDescription="Verified Stamp"
+                        android:layout_marginEnd="8dp" />
+                </LinearLayout>
+            </LinearLayout> <!-- End of Golden Border -->
+
+        </LinearLayout> <!-- End of Curved White Content Area -->
+
+    </LinearLayout>
+</ScrollView>

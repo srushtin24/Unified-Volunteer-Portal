@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">VolunteerRise</string>
+    <string name="splashtxt">VolunteerRise</string>
+    <string name="events">EVENTS</string>
+    <string name="nssunits">NSS UNITS</string>
+    <string name="gallery">GALLERY</string>
+    <string name="aboutus">ABOUT US</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="aboudev">DEVELOPERS</string>
+    <string name="certificate">CERTIFICATES</string>
+
+
+    <string name="aarambh">AARAMBH</string>
+    <string name="date_2th_oct_2024">Date: 2th Oct, 2024</string>
+    <string name="time_15_00_18_00">Time: 15:00 - 18:00</string>
+    <string name="venue_terna_auditorium_nerul_west">Venue: Terna Auditorium, Nerul West</string>
+    <string name="tree_plantation">TREE PLANTATION</string>
+    <string name="date_10th_oct_2024">Date: 10th Oct, 2024</string>
+    <string name="time_08_00_11_00">Time: 08:00 - 11:00</string>
+    <string name="venue_jewels_nerul_west_navi_mumbai">Venue: Jewels Nerul West, Navi Mumbai</string>
+    <string name="cleanup_drive">CLEANUP DRIVE</string>
+    <string name="date_16th_oct_2024">Date: 16th Oct, 2024</string>
+    <string name="time_07_00_10_00">Time: 07:00 - 10:00</string>
+    <string name="venue_mangrooves_at_palm_beach_road_seawoods">Venue: Mangrooves at Palm Beach Road, Seawoods</string>
+    <string name="diwali_donation_drive">Diwali Donation Drive</string>
+    <string name="date_20th_oct_2024">Date: 20th Oct, 2024</string>
+    <string name="time_12_00_17_00">Time: 12:00 - 17:00</string>
+    <string name="venue_dadar_nerul">Venue: Dadar, Nerul</string>
+    <string name="aboutusdescription">The Unified Volunteer Portal project aims to bridge the
+        gap between  NSS units, volunteers, and social service organizations through a centralized platform for event management and engagement. It overcomes current limitations, including
+        restricted access for non-NSS volunteers and suboptimal interfaces. Future plans
+        include expanding reach, integrating with government and NGO systems, enhancing personalization
+        and event management, and adding data analytics and monetization features. These developments
+        will make the platform more relevant, user-friendly, and impactful in advancing social service and
+        volunteerism.</string>
+
+
+    <string name="dev1">Pranjali Borchate</string>
+    <string name="dev2">Komal Londhe</string>
+    <string name="dev3">Srushti Nandanwar</string>
+    <string name="title_activity_event1">Event1</string>
+
+
+</resources>
