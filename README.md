@@ -35,7 +35,7 @@
 
 <p align="center">
    <img src="/images/8.png" width="200" hspace="40">
-   <img src="/images/9.png" width="200" hspace="40">
+   <img src="/images/9.png" width="230" hspace="40">
 </p>
 <br>
 <p align="center">
@@ -46,15 +46,15 @@
 ### 4] Certificate Generated with unique user id (once proof image is uploaded and approved by the admin)
 
 <p align="center">
-   <img src="/images/12.png" width="550">  
+   <img src="/images/12.png" width="200">  
 </p>
 
 ### 5] Video Gallery, About us, Video tutorial to use the app
 
 <p align="center">
-   <img src="/images/13.png" width="200" hspace="40"> 
-   <img src="/images/14.png" width="200" hspace="40">
-   <img src="/images/15.png" width="200" hspace="40">
+   <img src="/images/13.png" width="200" hspace="30"> 
+   <img src="/images/14.png" width="200" hspace="30">
+   <img src="/images/15.png" width="200" hspace="30">
 </p>
 
 ### 5] User Profile — Editable & Manageable
