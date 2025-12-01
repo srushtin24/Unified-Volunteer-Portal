@@ -35,7 +35,7 @@
 
 <p align="center">
    <img src="/images/8.png" width="200" hspace="40">
-   <img src="/images/9.png" width="230" hspace="40">
+   <img src="/images/9.png" width="220" hspace="40">
 </p>
 <br>
 <p align="center">
