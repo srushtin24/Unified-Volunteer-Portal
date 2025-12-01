@@ -8,22 +8,12 @@
 ### 1] Splash Screen, Login & Home Page
 
 <p align="center">
-   <img src="/images/1.png" width="200" style="margin-right:100px;">  
-   <img src="/images/2.png" width="200" style="margin-right:20px;">
+   <img src="/images/1.png" width="200" hspace="30">  
+   <img src="/images/2.png" width="200" hspace="30">
 </p>
 <p align="center">
    <img src="/images/3.png" width="200" style="margin-right:100px;">  
    <img src="/images/4.png" width="200" style="margin-right:20px;">
-</p>
-
-<p align="center">
-   <img src="/images/1.png" width="200" style="margin-right:20px;">
-   <img src="/images/2.png" width="200" style="margin-left:20px;">
-</p>
-
-<p align="center">
-   <img src="/images/3.png" width="200" style="margin-right:20px;">
-   <img src="/images/4.png" width="200" style="margin-left:20px;">
 </p>
 
 ### 2] Google Firebase (Realtime Database)
