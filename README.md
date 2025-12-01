@@ -16,6 +16,7 @@
    <img src="/images/3.png" width="200" hspace="40">  
    <img src="/images/4.png" width="200" hspace="40">
 </p>
+<br>
 
 ### 2] Google Firebase (Realtime Database)
 
@@ -30,6 +31,7 @@
 <p align="center">
    <img src="/images/7.png" width="600">  
 </p>
+<br>
 
 ### 3] Events and Geotag proof upload
 
@@ -42,12 +44,14 @@
    <img src="/images/10.png" width="200" hspace="40"> 
    <img src="/images/11.png" width="200" hspace="40">
 </p>
+<br>
 
 ### 4] Certificate Generated with unique user id (once proof image is uploaded and approved by the admin)
 
 <p align="center">
    <img src="/images/12.png" width="200">  
 </p>
+<br>
 
 ### 5] Video Gallery, About us, Video tutorial to use the app
 
@@ -56,6 +60,7 @@
    <img src="/images/14.png" width="200" hspace="30">
    <img src="/images/15.png" width="200" hspace="30">
 </p>
+<br>
 
 ### 5] User Profile — Editable & Manageable
 
