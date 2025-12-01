@@ -62,7 +62,7 @@
 </p>
 <br>
 
-### 5] User Profile — Editable & Manageable
+### 6] User Profile (Editable & Manageable)
 
 <p align="center">
    <img src="/images/16.png" width="200" hspace="40"> 
